@@ -1,0 +1,365 @@
+{
+  "project": "dementia-assessment-research",
+  "items": [
+    {
+      "id": "balanced-en",
+      "title": "Balanced paired examples · English",
+      "path": "data/scenarios/balanced-en.csv",
+      "kind": "dataset",
+      "language": "en",
+      "cohort": "balanced"
+    },
+    {
+      "id": "balanced-hi",
+      "title": "Balanced paired examples · Hindi",
+      "path": "data/scenarios/balanced-hi.csv",
+      "kind": "dataset",
+      "language": "hi",
+      "cohort": "balanced"
+    },
+    {
+      "id": "balanced-bn",
+      "title": "Balanced paired examples · Bengali",
+      "path": "data/scenarios/balanced-bn.csv",
+      "kind": "dataset",
+      "language": "bn",
+      "cohort": "balanced"
+    },
+    {
+      "id": "balanced-ta",
+      "title": "Balanced paired examples · Tamil",
+      "path": "data/scenarios/balanced-ta.csv",
+      "kind": "dataset",
+      "language": "ta",
+      "cohort": "balanced"
+    },
+    {
+      "id": "balanced-mr",
+      "title": "Balanced paired examples · Marathi",
+      "path": "data/scenarios/balanced-mr.csv",
+      "kind": "dataset",
+      "language": "mr",
+      "cohort": "balanced"
+    },
+    {
+      "id": "balanced-gu",
+      "title": "Balanced paired examples · Gujarati",
+      "path": "data/scenarios/balanced-gu.csv",
+      "kind": "dataset",
+      "language": "gu",
+      "cohort": "balanced"
+    },
+    {
+      "id": "unequal-en",
+      "title": "Unequal sample sizes · English",
+      "path": "data/scenarios/unequal-en.csv",
+      "kind": "dataset",
+      "language": "en",
+      "cohort": "unequal"
+    },
+    {
+      "id": "unequal-hi",
+      "title": "Unequal sample sizes · Hindi",
+      "path": "data/scenarios/unequal-hi.csv",
+      "kind": "dataset",
+      "language": "hi",
+      "cohort": "unequal"
+    },
+    {
+      "id": "unequal-bn",
+      "title": "Unequal sample sizes · Bengali",
+      "path": "data/scenarios/unequal-bn.csv",
+      "kind": "dataset",
+      "language": "bn",
+      "cohort": "unequal"
+    },
+    {
+      "id": "unequal-ta",
+      "title": "Unequal sample sizes · Tamil",
+      "path": "data/scenarios/unequal-ta.csv",
+      "kind": "dataset",
+      "language": "ta",
+      "cohort": "unequal"
+    },
+    {
+      "id": "unequal-mr",
+      "title": "Unequal sample sizes · Marathi",
+      "path": "data/scenarios/unequal-mr.csv",
+      "kind": "dataset",
+      "language": "mr",
+      "cohort": "unequal"
+    },
+    {
+      "id": "unequal-gu",
+      "title": "Unequal sample sizes · Gujarati",
+      "path": "data/scenarios/unequal-gu.csv",
+      "kind": "dataset",
+      "language": "gu",
+      "cohort": "unequal"
+    },
+    {
+      "id": "null-effect-en",
+      "title": "Near-zero paired effect · English",
+      "path": "data/scenarios/null-effect-en.csv",
+      "kind": "dataset",
+      "language": "en",
+      "cohort": "null-effect"
+    },
+    {
+      "id": "null-effect-hi",
+      "title": "Near-zero paired effect · Hindi",
+      "path": "data/scenarios/null-effect-hi.csv",
+      "kind": "dataset",
+      "language": "hi",
+      "cohort": "null-effect"
+    },
+    {
+      "id": "null-effect-bn",
+      "title": "Near-zero paired effect · Bengali",
+      "path": "data/scenarios/null-effect-bn.csv",
+      "kind": "dataset",
+      "language": "bn",
+      "cohort": "null-effect"
+    },
+    {
+      "id": "null-effect-ta",
+      "title": "Near-zero paired effect · Tamil",
+      "path": "data/scenarios/null-effect-ta.csv",
+      "kind": "dataset",
+      "language": "ta",
+      "cohort": "null-effect"
+    },
+    {
+      "id": "null-effect-mr",
+      "title": "Near-zero paired effect · Marathi",
+      "path": "data/scenarios/null-effect-mr.csv",
+      "kind": "dataset",
+      "language": "mr",
+      "cohort": "null-effect"
+    },
+    {
+      "id": "null-effect-gu",
+      "title": "Near-zero paired effect · Gujarati",
+      "path": "data/scenarios/null-effect-gu.csv",
+      "kind": "dataset",
+      "language": "gu",
+      "cohort": "null-effect"
+    },
+    {
+      "id": "missingness-en",
+      "title": "Missing adapted observations · English",
+      "path": "data/scenarios/missingness-en.csv",
+      "kind": "dataset",
+      "language": "en",
+      "cohort": "missingness"
+    },
+    {
+      "id": "missingness-hi",
+      "title": "Missing adapted observations · Hindi",
+      "path": "data/scenarios/missingness-hi.csv",
+      "kind": "dataset",
+      "language": "hi",
+      "cohort": "missingness"
+    },
+    {
+      "id": "missingness-bn",
+      "title": "Missing adapted observations · Bengali",
+      "path": "data/scenarios/missingness-bn.csv",
+      "kind": "dataset",
+      "language": "bn",
+      "cohort": "missingness"
+    },
+    {
+      "id": "missingness-ta",
+      "title": "Missing adapted observations · Tamil",
+      "path": "data/scenarios/missingness-ta.csv",
+      "kind": "dataset",
+      "language": "ta",
+      "cohort": "missingness"
+    },
+    {
+      "id": "missingness-mr",
+      "title": "Missing adapted observations · Marathi",
+      "path": "data/scenarios/missingness-mr.csv",
+      "kind": "dataset",
+      "language": "mr",
+      "cohort": "missingness"
+    },
+    {
+      "id": "missingness-gu",
+      "title": "Missing adapted observations · Gujarati",
+      "path": "data/scenarios/missingness-gu.csv",
+      "kind": "dataset",
+      "language": "gu",
+      "cohort": "missingness"
+    },
+    {
+      "id": "heterogeneous-en",
+      "title": "Different synthetic effects by language · English",
+      "path": "data/scenarios/heterogeneous-en.csv",
+      "kind": "dataset",
+      "language": "en",
+      "cohort": "heterogeneous"
+    },
+    {
+      "id": "heterogeneous-hi",
+      "title": "Different synthetic effects by language · Hindi",
+      "path": "data/scenarios/heterogeneous-hi.csv",
+      "kind": "dataset",
+      "language": "hi",
+      "cohort": "heterogeneous"
+    },
+    {
+      "id": "heterogeneous-bn",
+      "title": "Different synthetic effects by language · Bengali",
+      "path": "data/scenarios/heterogeneous-bn.csv",
+      "kind": "dataset",
+      "language": "bn",
+      "cohort": "heterogeneous"
+    },
+    {
+      "id": "heterogeneous-ta",
+      "title": "Different synthetic effects by language · Tamil",
+      "path": "data/scenarios/heterogeneous-ta.csv",
+      "kind": "dataset",
+      "language": "ta",
+      "cohort": "heterogeneous"
+    },
+    {
+      "id": "heterogeneous-mr",
+      "title": "Different synthetic effects by language · Marathi",
+      "path": "data/scenarios/heterogeneous-mr.csv",
+      "kind": "dataset",
+      "language": "mr",
+      "cohort": "heterogeneous"
+    },
+    {
+      "id": "heterogeneous-gu",
+      "title": "Different synthetic effects by language · Gujarati",
+      "path": "data/scenarios/heterogeneous-gu.csv",
+      "kind": "dataset",
+      "language": "gu",
+      "cohort": "heterogeneous"
+    },
+    {
+      "id": "outliers-en",
+      "title": "Sensitivity to extreme observations · English",
+      "path": "data/scenarios/outliers-en.csv",
+      "kind": "dataset",
+      "language": "en",
+      "cohort": "outliers"
+    },
+    {
+      "id": "outliers-hi",
+      "title": "Sensitivity to extreme observations · Hindi",
+      "path": "data/scenarios/outliers-hi.csv",
+      "kind": "dataset",
+      "language": "hi",
+      "cohort": "outliers"
+    },
+    {
+      "id": "outliers-bn",
+      "title": "Sensitivity to extreme observations · Bengali",
+      "path": "data/scenarios/outliers-bn.csv",
+      "kind": "dataset",
+      "language": "bn",
+      "cohort": "outliers"
+    },
+    {
+      "id": "outliers-ta",
+      "title": "Sensitivity to extreme observations · Tamil",
+      "path": "data/scenarios/outliers-ta.csv",
+      "kind": "dataset",
+      "language": "ta",
+      "cohort": "outliers"
+    },
+    {
+      "id": "outliers-mr",
+      "title": "Sensitivity to extreme observations · Marathi",
+      "path": "data/scenarios/outliers-mr.csv",
+      "kind": "dataset",
+      "language": "mr",
+      "cohort": "outliers"
+    },
+    {
+      "id": "outliers-gu",
+      "title": "Sensitivity to extreme observations · Gujarati",
+      "path": "data/scenarios/outliers-gu.csv",
+      "kind": "dataset",
+      "language": "gu",
+      "cohort": "outliers"
+    },
+    {
+      "id": "en-paired",
+      "title": "English paired analysis plan",
+      "path": "data/analysis-plans/en-paired.json",
+      "kind": "plan"
+    },
+    {
+      "id": "en-descriptive",
+      "title": "English descriptive analysis plan",
+      "path": "data/analysis-plans/en-descriptive.json",
+      "kind": "plan"
+    },
+    {
+      "id": "hi-paired",
+      "title": "Hindi paired analysis plan",
+      "path": "data/analysis-plans/hi-paired.json",
+      "kind": "plan"
+    },
+    {
+      "id": "hi-descriptive",
+      "title": "Hindi descriptive analysis plan",
+      "path": "data/analysis-plans/hi-descriptive.json",
+      "kind": "plan"
+    },
+    {
+      "id": "bn-paired",
+      "title": "Bengali paired analysis plan",
+      "path": "data/analysis-plans/bn-paired.json",
+      "kind": "plan"
+    },
+    {
+      "id": "bn-descriptive",
+      "title": "Bengali descriptive analysis plan",
+      "path": "data/analysis-plans/bn-descriptive.json",
+      "kind": "plan"
+    },
+    {
+      "id": "ta-paired",
+      "title": "Tamil paired analysis plan",
+      "path": "data/analysis-plans/ta-paired.json",
+      "kind": "plan"
+    },
+    {
+      "id": "ta-descriptive",
+      "title": "Tamil descriptive analysis plan",
+      "path": "data/analysis-plans/ta-descriptive.json",
+      "kind": "plan"
+    },
+    {
+      "id": "mr-paired",
+      "title": "Marathi paired analysis plan",
+      "path": "data/analysis-plans/mr-paired.json",
+      "kind": "plan"
+    },
+    {
+      "id": "mr-descriptive",
+      "title": "Marathi descriptive analysis plan",
+      "path": "data/analysis-plans/mr-descriptive.json",
+      "kind": "plan"
+    },
+    {
+      "id": "gu-paired",
+      "title": "Gujarati paired analysis plan",
+      "path": "data/analysis-plans/gu-paired.json",
+      "kind": "plan"
+    },
+    {
+      "id": "gu-descriptive",
+      "title": "Gujarati descriptive analysis plan",
+      "path": "data/analysis-plans/gu-descriptive.json",
+      "kind": "plan"
+    }
+  ]
+}
