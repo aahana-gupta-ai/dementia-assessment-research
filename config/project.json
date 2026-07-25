@@ -1,0 +1,15 @@
+{
+  "id": "dementia-assessment-research",
+  "title": "Cultural Bias in Dementia Assessment",
+  "mode": "local-demo",
+  "external_services": false,
+  "expected_files": 160,
+  "original_source_included": false,
+  "topics": [
+    "data-science",
+    "healthcare",
+    "dementia",
+    "cognitive-science",
+    "research"
+  ]
+}
