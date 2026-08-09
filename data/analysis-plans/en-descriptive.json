@@ -1,0 +1,16 @@
+{
+  "id": "en-descriptive",
+  "title": "English descriptive analysis plan",
+  "language": "en",
+  "mode": "descriptive",
+  "outcome": "demo_error_count",
+  "conditions": [
+    "original",
+    "adapted"
+  ],
+  "missing_policy": "available-observations",
+  "bootstrap_replicates": 1000,
+  "seed": 42,
+  "is_synthetic": true,
+  "purpose": "Illustrative analysis plan; not a preregistration for real study data"
+}
