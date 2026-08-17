@@ -1,0 +1,16 @@
+{
+  "id": "en-paired",
+  "title": "English paired analysis plan",
+  "language": "en",
+  "mode": "paired",
+  "outcome": "demo_error_count",
+  "conditions": [
+    "original",
+    "adapted"
+  ],
+  "missing_policy": "complete-pairs",
+  "bootstrap_replicates": 1000,
+  "seed": 42,
+  "is_synthetic": true,
+  "purpose": "Illustrative analysis plan; not a preregistration for real study data"
+}
