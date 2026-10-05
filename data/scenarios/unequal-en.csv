@@ -1,0 +1,17 @@
+participant_id,language,cohort,condition,demo_error_count,age_band,is_synthetic
+SYN-UNEQUAL-EN-001,en,unequal,original,14,60-69,true
+SYN-UNEQUAL-EN-001,en,unequal,adapted,10,60-69,true
+SYN-UNEQUAL-EN-002,en,unequal,original,21,70-79,true
+SYN-UNEQUAL-EN-002,en,unequal,adapted,18,70-79,true
+SYN-UNEQUAL-EN-003,en,unequal,original,17,80-89,true
+SYN-UNEQUAL-EN-003,en,unequal,adapted,15,80-89,true
+SYN-UNEQUAL-EN-004,en,unequal,original,24,60-69,true
+SYN-UNEQUAL-EN-004,en,unequal,adapted,20,60-69,true
+SYN-UNEQUAL-EN-005,en,unequal,original,20,70-79,true
+SYN-UNEQUAL-EN-005,en,unequal,adapted,17,70-79,true
+SYN-UNEQUAL-EN-006,en,unequal,original,16,80-89,true
+SYN-UNEQUAL-EN-006,en,unequal,adapted,14,80-89,true
+SYN-UNEQUAL-EN-007,en,unequal,original,23,60-69,true
+SYN-UNEQUAL-EN-007,en,unequal,adapted,19,60-69,true
+SYN-UNEQUAL-EN-008,en,unequal,original,19,70-79,true
+SYN-UNEQUAL-EN-008,en,unequal,adapted,16,70-79,true
