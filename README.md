@@ -1,53 +1,46 @@
 # Cultural Bias in Dementia Assessment
 
-Reproducible experiments using synthetic research data.
+**Reproducible experiments for asking whether a cognitive score changes when language and cultural context change.**
 
-**Package status:** runnable portfolio starter. Only the ADAS-Cog repository also contains supplied original web source in `legacy/`. Other project production code was not supplied. Newly generated code must not be represented as the original implementation.
+This repository accompanies my research into cultural and linguistic assumptions in dementia assessment, particularly ADAS-Cog.
 
-## What works in this starter
+## Research question
 
-- Thirty-six deterministic synthetic datasets and twelve illustrative analysis plans.
-- Paired comparisons, explicit missingness, and seeded percentile-bootstrap examples.
-- Dependency-free Python analysis CLI plus a browser explorer; no patient data is included.
+A standardised score looks objective. But if a patient recognises a concept in one language or cultural frame and not another, is the score measuring memory alone?
 
-## Run
+I use reproducible synthetic experiments here to explore that problem without exposing patient data.
 
-```bash
-python3 scripts/serve.py
-```
+## What is included
 
-Open http://127.0.0.1:8000. Use the bundled example content. No dependency install or account is required.
+- Deterministic synthetic datasets
+- Illustrative analysis plans
+- Paired-comparison workflows
+- Explicit missing-data handling
+- Seeded percentile-bootstrap examples
+- Dependency-free Python analysis CLI
+- Browser-based data explorer
 
-## Verify
-
-```bash
-node --test
-node scripts/verify.mjs
-```
-
-## Python analysis
+## Example analysis
 
 ```bash
 python3 -m analysis.cli data/scenarios/balanced-en.csv --format markdown
 python3 -m unittest discover -s tests_py
 ```
 
-## Contents
+## Why synthetic data?
 
-- `src/`: functioning browser application and reusable helpers.
-- `data/`: indexed demonstration resources.
-- `tests/`: behavior and data-integrity tests.
-- `docs/`: architecture, provenance, integration limits, and workflow guides.
-- `schemas/` and `examples/`: documented export formats.
+The aim of this public repository is to make the *analysis logic* inspectable while protecting research participants. No patient-identifiable clinical data is included.
 
-Every project is packaged with exactly **160 files**, including code, resources, tests, and documentation; file count is not a measure of research quality.
+## Repository structure
 
-## Topics
+- `analysis/` — analysis code
+- `data/` — synthetic scenarios
+- `src/` — browser explorer
+- `tests/`, `tests_py/` — reproducibility and integrity checks
+- `docs/` — research, architecture, and provenance notes
 
-`data-science` `healthcare` `dementia` `cognitive-science` `research`
+## Provenance
 
-Set these through GitHub's About settings.
+The research question and project direction come from my dementia-assessment work. The public reproducibility/demo layer was created later with AI-assisted development tools and uses synthetic data; it is not represented as recovered clinical production code. See `docs/PROVENANCE.md` and `NOTICE.md`.
 
-## Attribution and rights
-
-Project identity and background come from the uploaded Aahana Gupta descriptions. Starter code and new example content were generated for this bundle. No new open-source license is assigned. Review `NOTICE.md` and `docs/PROVENANCE.md` before public distribution.
+**Themes:** cognitive science · dementia · cultural bias · data analysis · reproducible research
