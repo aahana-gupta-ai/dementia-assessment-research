@@ -10,6 +10,12 @@ A standardised score looks objective. But if a patient recognises a concept in o
 
 I use reproducible synthetic experiments here to explore that problem without exposing patient data.
 
+## Project chronology
+
+- The underlying dementia-assessment work **predates this repository**.
+- **2026:** the research expanded into follow-up questions about language, culture, and what a standardised score is actually measuring.
+- **October 2026:** this public reproducibility layer was consolidated on GitHub using synthetic data so the analysis logic could be inspected without exposing participant data.
+
 ## What is included
 
 - Deterministic synthetic datasets
@@ -42,5 +48,7 @@ The aim of this public repository is to make the *analysis logic* inspectable wh
 ## Provenance
 
 The research question and project direction come from my dementia-assessment work. The public reproducibility/demo layer was created later with AI-assisted development tools and uses synthetic data; it is not represented as recovered clinical production code. See `docs/PROVENANCE.md` and `NOTICE.md`.
+
+[See the broader project timeline →](https://github.com/aahana-gupta-ai/aahana-gupta-ai/blob/main/PROJECT_TIMELINE.md)
 
 **Themes:** cognitive science · dementia · cultural bias · data analysis · reproducible research
