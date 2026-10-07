@@ -1,3 +1,9 @@
-# Rights and source notice
+# Repository notice
 
-No new open-source license has been assigned. Uploaded files may contain existing rights notices, which remain intact. New starter code is provided for the requested project bundle; obtain the owner's approval before claiming authorship or applying a redistribution license. No affiliations, patents, endorsements, deployments, or impact figures are established by this generated package.
+This repository is for research documentation and reproducibility.
+
+Public datasets in this repository are synthetic unless explicitly stated otherwise. They are provided to demonstrate analysis logic, not to reproduce private clinical records.
+
+No open-source licence has been assigned unless a file states otherwise. Existing third-party rights and notices remain in force.
+
+Nothing here should be used for diagnosis or clinical decision-making.
